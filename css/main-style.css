@@ -1,0 +1,158 @@
+/*----Default settings----*/
+
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,img,nav ul,nav li,form,label,table,tr,th,td,footer,header,nav
+{margin:0;padding:0;border:0;font-size:100%;font:inherit;}
+
+h1,h2,h3,h4,h5,h6{font-weight:600;}
+p{color: #6b6b6b; line-height:1.8em;}
+label{font-weight:600;font-color:#2C3E50;}
+a{text-decoration:none}
+.clear{clear:both;}/* clear float */
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color:#add9f3;
+	background-image:url(../images/allum.png);
+}
+
+.confirm-message{
+	font-weight: 600;
+	color: #32A2E3;
+	font-size: 16px;
+}
+
+.avail{
+	font-weight: 600;
+	color: #32A2E3;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+/*---- STYLE: PORTAL PAGES: LOGIN.PHP, REGISTER.PHP  ----*/
+
+#portal-wrapper{
+	position: relative;
+    width:100%;
+}
+
+.img-center{
+	display: block;
+	position:relative;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#content{
+    position: absolute;
+    width:100%;
+    height:100%;
+}
+
+
+.title{
+	text-transform: capitalize;
+	color: #2C3E50;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
+	font-size:3em;
+	padding:5px 20px 0;
+	font-style: normal;
+	font-weight: 600;
+	text-transform:uppercase;
+	border:none;
+	text-align:center;
+}
+
+.description{
+    color:#6B6B6B;
+    margin-top:40px;
+    font-size: 1.5em;
+   	text-align:center;
+}
+
+.btns{
+	margin-top: 3em;
+}
+
+.btns ul li{
+	display:inline-block;
+	margin-right: 1em;
+}
+
+.btns ul li a{
+	color: #2C3E50;
+	font-size: 0.72em;
+	font-weight:600;
+	text-transform: uppercase;
+	border:solid 2px #2C3E50;
+	border-radius: 5px;
+	padding: 0.8em 1.2em;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	display: block;
+}
+
+.btns ul li a:hover{
+	background:#32A2E3;
+	border:solid 2px #32A2E3;
+	color:#FFF;
+}
+
+
+.login-form-wrapper{
+	margin-top:13%;
+	width: 60%;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.5);
+	
+	border-radius: 5px;
+}
+
+.register-form-wrapper{
+	width: 70%;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 5px;
+}
+
+
+.form-size{
+  margin-top:10%;
+  height:auto;
+  padding: 20px;
+}
+
+.form-border {
+  border: 2px solid #2C3E50;
+  height:auto;
+  border-radius: 5px;
+}
+
+.form-padding {
+  padding: 45px 45px;
+ 
+}
+
+.form-center {
+	text-align: center;
+  	position: relative;
+}
+
+.form-center a{
+	color: #32A2E3;
+	font-weight:500;
+}
+
+#content h1 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #2C3E50;
+  margin: 10px 0px 35px 0px;
+}
+
+span.ext {
+  color: #32A2E3;
+  font-weight: 300;
+}

@@ -1,0 +1,178 @@
+/*** FORM ELEMENTS ****/
+
+
+
+input[type="text"] {
+	padding: 12px 10px;
+	margin: 12px 0;
+	border: 1px solid rgba(192, 192, 192, 0.61);
+	color: #6b6b6b;
+	font-size: 0.85em;
+	
+	/*border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;*/
+}
+
+label{
+	display: inline-block;
+	width: 180px;
+}
+
+input[type="password"] {
+	padding: 12px 10px;
+	margin: 12px 0;
+	border: 1px solid rgba(192, 192, 192, 0.61);
+	color: #6b6b6b;
+	font-size: 0.85em;
+	
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+select {
+	width:100%;
+	padding: 12px 10px;
+	margin: 12px 0;
+	border: 1px solid rgba(192, 192, 192, 0.61);
+	color: #6b6b6b;
+	font-size: 0.85em;
+	
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+select option{
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+/* DARK SUBMIT BUTTON */
+
+input[type="submit"] {
+	background: #2C3E50;
+	color: #F0F0F0;
+	padding: .9em 3em;
+	font-size: 0.875em;
+	outline: none;
+	cursor: pointer;
+	
+	border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+	-o-border-radius: 0.3em;
+	
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 4px solid #2A323A;
+	
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+
+
+input[type="submit"]:hover{
+	background: #92d9f8;
+	color:#2C3E50;
+	border-bottom: 4px solid #78a2b6;
+}
+
+
+textarea {
+	width: 500px;
+	height: 50px;
+	border: none;
+	padding: 10px;
+}
+
+
+
+.form-input input{
+		width: 30.66%;
+}
+
+.details-wrapper input[type="text"]{
+	width: 40%;
+}
+
+.details-wrapper select{
+	width: 45%;
+}
+
+.p-location select{
+	width: 35%;
+	margin-right:3%;
+}
+
+
+
+/****** ERROR MESSAGES *****/
+.form-input label.error{
+	font-size:14px;
+	color: #b20000;
+	padding-left:10px;
+	width:250px;
+}
+
+.error p{
+	color: #b20000;
+	font-size:20px;
+	font-weight:600;
+}
+
+
+#book-flight select{
+	width: 30%;
+}
+
+#book-flight input[type="text"]{
+	width: 28%;
+}
+
+#comments label{
+	width: 40%;
+}
+
+
+/**** INPUT BACKGROUNDS ****/
+.date{background:url(../images/cal-icon.png) no-repeat 100% 50% #FFF;}
+.location{background:url(../images/world.png) no-repeat 100% 50% #FFF;}
+
+/**** BUTTONS ****/
+
+.button{
+	background: #2C3E50;
+	color: #F0F0F0;
+	padding: .9em 3em;
+	font-size: 0.875em;
+	outline: none;
+	cursor: pointer;
+	
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+.button:hover{
+	background:#92D9F8;
+	color:#2C3E50;
+}
+
+.persons select{
+	width: 20%;
+}
+
+
+
+
